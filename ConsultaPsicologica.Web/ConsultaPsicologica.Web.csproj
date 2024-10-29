@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsultaPsicologica.Application\ConsultaPsicologica.Application.csproj" />
+    <ProjectReference Include="..\ConsultaPsicologica.Domain\ConsultaPsicologica.Domain.csproj" />
+    <ProjectReference Include="..\ConsultaPsicologica.Infrastructure\ConsultaPsicologica.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
